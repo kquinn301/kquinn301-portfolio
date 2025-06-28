@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import { FaPython, FaJava, FaJs, FaReact, FaDatabase } from "react-icons/fa";
+import { FaPython, FaJava, FaJs, FaReact, FaDatabase, FaBootstrap } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaCheckCircle, FaBug, FaCog, FaMicrochip, FaUsers } from "react-icons/fa";
 import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
@@ -40,8 +40,8 @@ export const About = () => {
                     <span>API Testing</span>
                   </div>
                   <div className="flex items-center">
-                    <FaUsers className="mr-2 text-purple-500" />
-                    <span>Agile Processes</span>
+                    <FaUsers className="mr-2 text-blue-500" />
+                    <span>Agile Process</span>
                   </div>
                 </div>
               </div>
@@ -59,6 +59,7 @@ export const About = () => {
                 <h3 className="text-xl font-bold mb-4 text-[#e0c3fc]"> Framework </h3>
                 <div className="flex gap-4 text-4xl">
                   <FaReact className="text-[#61dafb] w-15 h-15" title="React" />
+                  <FaBootstrap className="text-[#7952B3] w-15 h-15" title="Bootstrap" />
                 </div>
               </div>
 
@@ -87,8 +88,8 @@ export const About = () => {
               </div>
               <div className="mt-4">
                 <p className="text-gray-300">
-                  <strong>Relevant Coursework:</strong> Object-Oriented Programming, Algorithms & Data Structures, 
-                                                        Web Application Development, Software Engineering...
+                  <strong>Relevant Coursework:</strong> Object-Oriented Programming, Algorithms & Data Structures,
+                  Web Application Development, Software Engineering...
                 </p>
               </div>
             </div>
@@ -101,8 +102,14 @@ export const About = () => {
               </div>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <p className="text-lg font-semibold text-gray-200"> QA Intern (07/2024 - 10/2024) </p>
-                  <p>Gained hands-on experience in software testing and Agile methodologies.</p>
+                  <p className="text-lg font-semibold text-gray-200"> Quality Assurance Intern</p>
+                  <p className="text-gray-400">(07/2024 - 10/2024)</p>
+                  <div className="mt-4">
+                    <p> Acquired a foundational understanding of <b>software testing</b> and <b>Agile</b> methodologies.</p>
+                    <div className="mt-2">
+                      <p> Analyzed requirements, created test cases, conducted manual testing and reported issues.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

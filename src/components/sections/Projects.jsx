@@ -1,7 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import concertBooking from "../../assets/concert-booking.png";
 import CatchMeIfYouCan from "../../assets/catch-me-if-you-can.png";
-import myPortfolio from "../../assets/portfolio.png";
+import pizzaCRM from "../../assets/pizzacrm.png";
 
 export const Projects = () => {
     return (
@@ -18,6 +18,14 @@ export const Projects = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {[
                             {
+                                title: "PizzaCRM",
+                                description:
+                                    "A CRM web application for Pizza brand that manages customer information and orders, features user roles, and visualizes data using graphs for analytics.",
+                                image: pizzaCRM, 
+                                tech: ["Python", "Django", "Bootstrap"],
+                                link: "https://github.com/npkyphuong04/CRM-Project",
+                            },
+                            {
                                 title: "ConcertLand",
                                 description:
                                     "An online concert booking platform to streamline ticket reservations, enhance user experience, and ensure seamless booking management.",
@@ -32,14 +40,6 @@ export const Projects = () => {
                                 image: CatchMeIfYouCan,
                                 tech: ["Java"],
                                 link: "https://github.com/tnphucccc/Catch-Me-If-You-Can",
-                            },
-                            {
-                                title: "kquinn's Portfolio",
-                                description:
-                                    "My personal portfolio to showcase projects, skills, and experiences in a beautifully designed layout.",
-                                image: myPortfolio, 
-                                tech: ["React", "TailwindCSS"],
-                                link: "https://github.com/kquinn301/kquinn301-portfolio",
                             },
                         ].map((project, index) => (
                             <div
